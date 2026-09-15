@@ -41,3 +41,6 @@ paper/tex/bst/
 energy/info.txt
 paper/*.pdf
 paper/*.zip
+
+# archived drafts, template download, stale copies
+old/
