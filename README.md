@@ -47,7 +47,7 @@ pip install -r requirements.txt
 python experiments/scripts/download.py          # fetches public checkpoints and GLUE
 python experiments/scripts/e1_profile.py        # energy profile  (needs /sys/class/powercap RAPL)
 python experiments/scripts/e2_distill.py        # distil the fleet
-python experiments/scripts/e25_table_match.py   # teacher-matching table (Table 12)
+python experiments/scripts/e25_table_match.py   # teacher-matching table (Table 11)
 python experiments/scripts/e23_opposition.py    # better-student / worse-cascade (Table 13)
 python experiments/scripts/e27_compare_students.py sst2 \
     plain20k=experiments/results/e21_d20k_sst2.json \
