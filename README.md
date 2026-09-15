@@ -5,6 +5,8 @@ Measurement code, experiment scripts and raw results for
 > **Adaptive Multi-Student Knowledge Distillation by Capacity for Energy-Efficient LLM Inference in Resource-Constrained Settings**
 > Tensae Aschalew, Beakal Gizachew — Addis Ababa University
 > PanAfriCon AI 2026 (to appear)
+>
+> MSc thesis work by Tensae Aschalew, supervised by Dr. Beakal Gizachew.
 
 A single teacher is distilled into a fleet of students that differ only in capacity.
 The smallest student answers first; its own confidence decides whether to accept or
