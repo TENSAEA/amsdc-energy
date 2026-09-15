@@ -1,0 +1,6 @@
+{
+ "max-softmax only (current gate)": 0.7697626024546651,
+ "logit margin": 0.7826389773644201,
+ "full hidden state (256-d)": 0.7263940204696988,
+ "hidden state + conf + margin": 0.7272009173143075
+}

@@ -1,0 +1,43 @@
+# environments
+.venv/
+.venv-gpu/
+__pycache__/
+*.pyc
+
+# large artefacts (public checkpoints and datasets; see README)
+experiments/models/
+experiments/data/
+experiments/logs/
+*.pt
+*.bin
+*.safetensors
+
+# private working documents
+paper/AMSDC_Technical_Report.pdf
+paper/tex/technical_report.*
+findings/
+paper/submission_135.zip
+paper/amsdc_camera_ready.pdf
+paper/rebuttal.*
+paper/tex/*.aux
+paper/tex/*.log
+paper/tex/*.out
+paper/tex/*.toc
+paper/tex/*.bbl
+paper/tex/*.blg
+
+# scratch
+*.tmp
+.DS_Store
+
+# manuscript source and PDF (under review; to be added after publication)
+paper/tex/amsdc.tex
+paper/tex/amsdc.pdf
+paper/tex/sn-jnl.cls
+
+# template package and assistant transcripts
+Download+the+journal+article+template+package+*/
+paper/tex/bst/
+energy/info.txt
+paper/*.pdf
+paper/*.zip

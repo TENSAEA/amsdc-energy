@@ -1,0 +1,12 @@
+accelerate==1.15.0
+codecarbon==3.3.1
+datasets==5.0.1
+matplotlib==3.11.1
+numpy==2.5.3
+pandas==3.0.5
+safetensors==0.8.0
+scikit-learn==1.9.1
+scipy==1.18.1
+tokenizers==0.23.2
+torch==2.14.0   # CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
+transformers==5.17.0

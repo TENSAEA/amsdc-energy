@@ -1,0 +1,38 @@
+[
+ {
+  "router": "R1 surface statistics",
+  "r": -0.03788605370365606,
+  "auc": 0.4383870556758822,
+  "route_acc": NaN
+ },
+ {
+  "router": "R2 word TF-IDF 1-2gram (2000) + ridge",
+  "r": 0.08494835479435553,
+  "auc": 0.5576591497855353,
+  "route_acc": 0.8084862385321101
+ },
+ {
+  "router": "R2 word TF-IDF 1-2gram (10000) + ridge",
+  "r": 0.09906133607418159,
+  "auc": 0.5706034739032573,
+  "route_acc": 0.8084862385321101
+ },
+ {
+  "router": "R3 char 3-5gram TF-IDF + ridge",
+  "r": 0.0755189693302927,
+  "auc": 0.5517730496453901,
+  "route_acc": 0.8084862385321101
+ },
+ {
+  "router": "R3b word TF-IDF -> P(escalate)",
+  "r": 0.10277539297045461,
+  "auc": 0.5741198454155518,
+  "route_acc": NaN
+ },
+ {
+  "router": "R5 s1 confidence",
+  "r": -0.14682105049785343,
+  "auc": 0.7835817726249629,
+  "route_acc": NaN
+ }
+]
