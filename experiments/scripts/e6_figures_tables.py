@@ -64,7 +64,7 @@ print(f"[E6] wrote {FIG}/pareto_{a.task}.pdf/.png")
 def f(x, n=1): return f"{float(x):,.{n}f}"
 out = {}
 
-# Table 4: measured energy + accuracy
+# paper Table 6: measured energy + accuracy
 ORDER = [("teacher","Teacher (\\texttt{bert-large})"), ("teacher_int8","Teacher, int8 (baseline v)"),
          ("s4","$s_4$"), ("s3","$s_3$"), ("s2","$s_2$"), ("s1","$s_1$"),
          ("distilbert_baseline","DistilBERT baseline")]
@@ -82,12 +82,12 @@ for key, lab in [("router_heuristic","Router (heuristic)"),("router_linear","Rou
     e=E1[key]; L.append(f"{lab} & {f(e['mJ_per_query'],3)} $\\pm$ {f(e['ci95'],3)} & --- \\\\")
 out["table4"] = "\n".join(L)
 
-# Table 5: RIE
+# paper Table 7: RIE
 out["table5"] = (f"{a.task.upper()} & {f(float(rie['E_teacher_mJ'])/1000)} & "
                  f"{f(float(rie['E_oracle_mJ'])/1000)} & {f(float(rie['RIE_mJ'])/1000)} & "
                  f"{f(rie['RIE_pct'])}\\% & {100*float(rie['oracle_acc']):.2f} \\\\")
 
-# Table 6: routers
+# router comparison
 L=[]
 s1e = float(E1["s1"]["mJ_per_query"])
 for r in rows:
@@ -97,7 +97,7 @@ for r in rows:
              f"{float(r['router_mJ'])/s1e:.4f} & {f(r['mJ_per_query'])} & {float(r['RR']):.3f} \\\\")
 out["table6"] = "\n".join(L)
 
-# Table 7: end-to-end
+# paper Table 9: end-to-end
 L=[]
 for r in rows:
     nm = r["system"]; b = nm.startswith("AMSD-C (heuristic")
