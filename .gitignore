@@ -32,7 +32,7 @@ paper/tex/*.blg
 
 # manuscript source and PDF (under review; to be added after publication)
 paper/tex/amsdc.tex
-paper/tex/*.pdf   # compile output and root-level figure copies (figures/ is tracked)
+paper/tex/*.pdf
 paper/tex/sn-jnl.cls
 
 # template package and assistant transcripts
@@ -49,6 +49,3 @@ paper/journal/
 sample_format.PDF
 paper/ieee/
 sample_format_uncropped.pdf
-
-# root-level figure copies used by the camera-ready source (figures/ is the tracked original)
-paper/tex/*.pdf
