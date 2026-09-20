@@ -32,7 +32,7 @@ paper/tex/*.blg
 
 # manuscript source and PDF (under review; to be added after publication)
 paper/tex/amsdc.tex
-paper/tex/amsdc.pdf
+paper/tex/*.pdf   # compile output and root-level figure copies (figures/ is tracked)
 paper/tex/sn-jnl.cls
 
 # template package and assistant transcripts
@@ -45,3 +45,7 @@ paper/*.zip
 # archived drafts, template download, stale copies
 old/
 paper/135_Tensae_AMSDC_*
+paper/journal/
+sample_format.PDF
+paper/ieee/
+sample_format_uncropped.pdf

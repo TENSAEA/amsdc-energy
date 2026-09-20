@@ -36,8 +36,20 @@ energy/meter.py            RAPL energy reader (package + DRAM, wrap-around corre
 experiments/scripts/       e1 … e28, one script per experiment; models.py defines the fleet
 experiments/results/       CSV/JSON outputs every table and figure is built from
 paper/tex/figures/         the three figures
+paper/journal/             journal version (Discover Computing formatting) + cover letter
+paper/ieee/                IEEE Access version (same content, IEEE Access template) + biographies
 requirements.txt           Python dependencies (CPU measurement environment)
 ```
+
+## Publication status
+
+- **PanAfriCon AI 2026**, submission 135 — abstract accepted; camera-ready and rebuttal prepared
+  (`paper/135_Tensae_AMSDC.zip`).
+- **IEEE Access** — third version in `paper/ieee/`, same content in the official IEEE Access template
+  (`ieeeaccess.cls`), IEEE reference style, author biographies and photos included. Not yet submitted.
+- **Discover Computing** (Springer) — journal version prepared in `paper/journal/`, formatted to the
+  journal's requirements (Vancouver-numbered references with DOI links, Fig1–Fig3 naming, required
+  declarations, cover letter). Not yet submitted.
 
 ## Reproducing
 
